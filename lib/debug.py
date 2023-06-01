@@ -8,4 +8,12 @@ from classes.result import Result
 if __name__ == '__main__':
     print("HELLO! :) let's debug :vibing_potato:")
 
-    ipdb.set_trace()
+# self, player, game, score
+
+sarah = Player('sarah')
+val = Player('val')
+tetris = Game('tetris')
+pokemon = Game('pokemon')
+sresults = Result(sarah, tetris, 5000)
+
+ipdb.set_trace()
